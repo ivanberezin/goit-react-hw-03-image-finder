@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import Searchbar from './Searchbar/Searchbar';
-import ImageGallery from './ImageGallery/ImageGallery';
-import Button from './Button/Button';
+import Searchbar from './Searchbar';
+import ImageGallery from './ImageGallery';
+import Button from './Button';
 import Loader from "react-loader-spinner";
-import Modal from './Modal/Modal';
+import Modal from './Modal';
 
 import imagesApi from '../services/imagesApi';
 
